@@ -1,3 +1,5 @@
+// STICKY //
+
 let nav = document.querySelector("header");
 window.addEventListener("scroll", ()=>{
     if(document.documentElement.scrollTop > 20){ 
@@ -6,3 +8,5 @@ window.addEventListener("scroll", ()=>{
         nav.classList.remove("sticky");
     }
 })
+
+

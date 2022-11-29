@@ -211,6 +211,7 @@
 
 .values-tabs {
   display: flex;
+  margin-bottom: 4rem;
 }
 
 .value {
@@ -252,5 +253,45 @@
     font-size: 1.6rem;
     color: #0a2136;
     text-align: center;
-  
 }
+
+/* CTA Contact sekcija */
+
+.cta-contact-section {
+  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  height: 50rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta-contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-content: space-around;
+  align-items: center;
+  justify-items: center;
+  height: 50rem;
+  padding: 13rem 0;
+}
+
+.cta-heading {
+  color: #ffffff;
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn.cta-btn {
+  width: 44rem;
+  height: 9rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 5.5rem;
+  border: 0.3rem solid #ffffff;
+}
+
+/* Career sekcija */
+

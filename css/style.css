@@ -15,7 +15,8 @@
 .header.sticky {
   background-color: #0a2136;
   height: 10rem;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-bottom: 0.2rem solid #ffffff;
   z-index: 99;
 }
 
@@ -262,7 +263,8 @@
   background-size: cover;
 }
 
-.cta-contact {
+.cta-contact, 
+.cta-career {
   display: grid;
   grid-template-rows: 1fr 1fr;
   align-content: space-around;
@@ -270,6 +272,7 @@
   justify-items: center;
   height: 50rem;
   padding: 13rem 0;
+  gap: 2rem;
 }
 
 .cta-heading {
@@ -277,6 +280,8 @@
   font-size: 4.8rem;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 6rem;
 }
 
 .btn.cta-btn {
@@ -294,6 +299,7 @@
 .career-section {
   padding-top: 3rem;
   background-color: #0a2136;
+  padding-bottom: 20rem;
 }
 
 .career {
@@ -320,7 +326,7 @@
   top: 10rem;
   display: flex;
   align-items: center;
-  z-index: 99;
+  z-index: 98;
   border-bottom: 0.5rem solid #ffffff;
 }
 
@@ -341,35 +347,162 @@
 }
 
 .header-2{
-  top: 19.6rem;
+  top: 19.1rem;
   border-bottom: 0.5rem solid #ffffff;
+  border-top: 0.5rem solid #ffffff;
 }
 
 .header-3{
-  top: 29.2rem;
+  top: 28.2rem;
   border-bottom: 0.5rem solid #ffffff;
+  border-top: 0.5rem solid #ffffff;
 }
 
 .header-4 {
-    top: 38.8rem;
+    top: 36.8rem;
     border-bottom: 0.5rem solid #ffffff;
+    border-top: 0.5rem solid #ffffff;
 }
 
 .content {
-  height: 100vh;
+  height: 70rem;
   background: #14426B;
-  padding-top: 5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
   align-items: center;
 }
 
 .sticky-content-img {
-  max-width: 50rem;
+  max-width: 80rem;
+  margin-left: 20rem;
 }
 
 .sticky-content-text {
-  max-width: 40rem;
+  max-width: 60rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
   color: #ffffff;
 }
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.row {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-self: start;
+  gap: 3rem;
+}
+
+.btn.learn-btn {
+  text-transform: none;
+  max-width: 40rem;
+  align-self: center;
+  justify-self: start;
+  padding: 1.5rem 7rem;
+}
+
+/* Career CTA sekcija */
+
+.career-cta-section {
+  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  height: 50rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Contact sekcija */
+
+.heading.contact::after {
+  width: 18rem;
+  margin-left: -9rem;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 73.3rem;
+}
+
+.wrapper {
+  width: 100rem;
+}
+
+.wrapper label {
+  display: block;
+  font-size: 2.2rem;
+  color: #0a2136;
+  margin-bottom: 1rem;
+}
+
+form .dbl-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+.dbl-field .field {
+  height: 6rem;
+  width: calc(100% / 2 - 1.3rem);
+}
+
+form .field input,
+form .message textarea {
+  height: 100%;
+  width: 100%;
+  padding: 0 1.5rem;
+  outline: none;
+  border: 0.1rem solid #0a2136;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+form .field input:focus,
+form .message textarea:focus {
+  border: 0.2rem solid #0a2136;
+}
+
+form .message textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 12rem;
+  max-height: 30rem;
+  min-height: 20rem;
+  padding: 1.5rem 1rem 0 1.5rem;
+}
+
+form .button-area {
+  margin: 2.5rem 0;
+  display: grid;
+  justify-items: center;
+}
+
+.button-area span {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 0 2.5rem 0;
+  color: #0a2136;
+  display: none;
+}
+
+.button-area button {
+  margin: 4.5rem 0 0 0;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  background-color: #0a2136;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 2rem 20rem;
+  cursor: pointer;
+}
+

@@ -506,3 +506,149 @@ form .button-area {
   cursor: pointer;
 }
 
+.map-address {
+  margin: 13rem 0;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.map iframe {
+  min-width: 100rem;
+  min-height: 70rem;
+  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0,0,0,0.2);
+}
+
+.address {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.address p {
+  font-size: 2rem;
+  justify-self: start;
+  color: #0a2136;
+  line-height: 2.5rem;
+}
+
+.address a {
+  text-decoration: none;
+  color: #0a2136;
+  font-size: 2rem;
+  transition: all 0.1s ease;
+}
+
+.address a:hover {
+  font-weight: bold;
+}
+
+/* Footer sekcija */
+
+.follow-us {
+  background-color: #14426B;
+  text-align: center;
+  min-height: 15rem;
+}
+
+.follow-us-text {
+  font-size: 3.6rem;
+  color: #ffffff;
+  padding: 2rem 0 0 0;
+  font-weight: normal;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.follow-us-text::after {
+  content: '';
+  width: 9rem;
+  height: 0.2rem;
+  background: #ffffff;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  margin-left: -4.5rem;
+}
+
+.logo-and-links {
+  background-color: #0a2136;
+}
+
+.logo-and-links .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  min-height: 15rem;
+}
+
+.useful-links {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.useful-links h5 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: normal;
+  position: relative;
+}
+
+.useful-links h5::after {
+  content: '';
+  width: 8rem;
+  height: 0.1rem;
+  background: #ffffff;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  margin-left: -4rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 4rem;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  max-width: 6.7rem;
+  transition: all 0.3s;
+}
+
+.footer-links a:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  background-color: #040D15;
+  min-height: 15rem;
+}
+
+.container .copy-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15rem;
+}
+
+.copy-text {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.copy-text span {
+  margin-left: 0.5rem;
+}

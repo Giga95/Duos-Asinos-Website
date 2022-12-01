@@ -22,6 +22,11 @@
 
 .logo {
   height: 4.9rem;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 .main-nav-list {
@@ -116,6 +121,10 @@
 }
 
 /* Services Sekcija */
+
+.section-services {
+  background-color: #ffffff;
+}
 
 .heading.services {
   font-size: 4.8rem;
@@ -260,7 +269,7 @@
 
 .values-tabs {
   display: flex;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .value {
@@ -355,6 +364,7 @@
 }
 
 .career {
+  margin-top: 5rem;
   color: #ffffff;
 }
 
@@ -472,6 +482,11 @@
 
 /* Contact sekcija */
 
+.contact-section {
+  padding-top: 5rem;
+  background-color: #ffffff;
+}
+
 .heading.contact::after {
   width: 18rem;
   margin-left: -9rem;
@@ -556,10 +571,15 @@ form .button-area {
   text-transform: uppercase;
   padding: 2rem 20rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-area button:hover {
+  transform: scale(1.1);
 }
 
 .map-address {
-  margin: 13rem 0;
+  padding: 13rem 0;
   display: flex;
   align-items: center;
   gap: 10rem;
@@ -604,6 +624,14 @@ form .button-area {
   background-color: #14426B;
   text-align: center;
   min-height: 15rem;
+}
+
+.follow-us img{
+  transition: all 0.3s ease;
+}
+
+.follow-us img:hover {
+  transform: scale(1.1);
 }
 
 .follow-us-text {

@@ -1,0 +1,141 @@
+/*************************/
+/* BELOW 1344px (Smaller desktops) */
+/*************************/
+
+@media (max-width: 84em) {
+
+    html {
+        font-size: 59%;
+      }
+
+    #myBtn {
+        font-size: 3.5rem;
+    }
+
+    .header {
+        padding: 0 10rem;
+    }
+
+    .hero {
+      max-width: 120rem;
+      margin-left: 0;
+    }
+  
+    .heading-primary, 
+    .heading {
+      font-size: 4.4rem;
+      line-height: 5rem;
+    }
+    
+    .hero {
+        padding: 0 10rem;
+    }
+
+    .heading.services,
+    .sub-heading-services {
+        font-size: 4rem;
+    }
+
+    .heading.services::after{
+        width: 18rem;
+        height: 0.3rem;
+        bottom: -0.6rem;
+        margin-left: -9rem;
+    }
+
+    .sub-heading-services::after {
+        width: 16rem;
+        height: 0.3rem;
+        bottom: -0.8rem;
+        margin-left: -8rem;
+    }
+    
+    .services-tabs {
+        gap: 6rem;
+    }
+    
+    .service {
+        width: 34rem;
+        height: 38rem;
+    }
+
+    .tab-description {
+        padding-top: 3rem;
+    }
+
+    .values-tabs {
+        gap: 10rem;
+    }
+
+    .value {
+        max-width: 28rem;
+    }
+
+    .content {
+        height: 60rem;
+    }
+
+    .col-2 {
+        gap: 5rem;
+        max-width: 105rem;
+    }
+
+    .career-header h2 {
+        margin-left: 10rem;
+    }
+
+    .sticky-content-img {
+        max-width: 60rem;
+    }
+
+    .map iframe {
+        min-width: 75rem;
+        min-height: 50rem;
+        margin-left: 10rem;
+    }
+
+  }
+
+
+/*************************/
+/* BELOW 1200px (Landscape Tablets) */
+/*************************/
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+      }
+    
+
+}
+
+
+
+/*************************/
+/* BELOW 944px (Tablets) */
+/*************************/
+
+@media (max-width: 59em) {
+    html {
+      font-size: 50%;
+    }
+
+}
+
+
+/*************************/
+/* BELOW 704px (Smaller tablets) */
+/*************************/
+
+@media (max-width: 44em) {
+
+}
+
+
+/*************************/
+/* BELOW 544px (Phones) */
+/*************************/
+
+@media (max-width: 34em) {
+    
+}

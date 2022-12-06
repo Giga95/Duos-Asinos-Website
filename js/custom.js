@@ -9,6 +9,12 @@ window.addEventListener("scroll", ()=>{
     }
 })
 
+// NAVBAR - RESPONSIVE //
+
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
+
 // YEAR //
 
 const yearEl = document.querySelector(".year");

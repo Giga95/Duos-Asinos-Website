@@ -105,6 +105,23 @@
     html {
         font-size: 56.25%;
       }
+
+    .hero {
+        grid-template-columns: 0.9fr 0.1fr;
+    }
+
+    .map-address {
+        flex-direction: column;
+        gap: 10rem;
+        padding: 8rem 0;
+    }
+
+    .map iframe {
+        min-width: 80rem;
+        margin-left: 0;
+    }
+
+    
     
 
 }
@@ -120,6 +137,62 @@
       font-size: 50%;
     }
 
+    .hero, .header {
+        padding: 0 5rem;
+    }
+
+    .heading-primary {
+        font-size: 5rem;
+    }
+
+    .services-tabs, .values-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 40rem;
+        height: 46rem;
+    }
+
+    .tab-description {
+        padding-top: 0;
+    }
+
+    .tab-front, .tab-back {
+        padding: 5rem;
+    }
+
+    .values-tabs {
+        gap: 5rem;
+    }
+    
+    .value {
+        max-width: 32rem;
+    }
+
+    .career-header h2 {
+        margin-left: 5rem;
+    }
+    
+    .content {
+        height: 45rem;
+    }
+
+    .col-2 {
+        max-width: 90rem;
+    }
+
+    .wrapper {
+        width: 80rem;
+    }
+
+    .button-area button {
+        padding: 2rem 17rem;
+    }
+
+    
+
 }
 
 
@@ -129,6 +202,64 @@
 
 @media (max-width: 44em) {
 
+    .main-nav-link:link, 
+    .main-nav-link:visited,
+    .nav-cta:link, 
+    .nav-cta:visited {
+        font-size: 2.4rem;
+    }
+
+    header nav {
+        display: none;
+    }
+    
+    #hamburger-icon {
+        display: block;
+    }
+      
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .heading-primary {
+        font-size: 5rem;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    .hero-description {
+        padding-top: 1.8rem;
+        padding-bottom: 4rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .buttons-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-right: 0;
+    }
+
+    .wrapper {
+        width: 60rem;
+    }
+
+    .map iframe {
+        min-width: 60rem;
+        margin-left: 0;
+    }
+
+    .margin-right-sm {
+        margin-right: 0 !important;
+    }
+
+    #myBtn {
+        font-size: 4rem;
+    }
+
+
 }
 
 
@@ -137,5 +268,111 @@
 /*************************/
 
 @media (max-width: 34em) {
+    .header {
+        padding: 0 4rem;
+    }
+
+    .heading {
+        font-size: 3.6rem;
+    }
+
+    .cta-heading {
+        font-size: 3.8rem;
+        line-height: 4.4rem;
+    }
+
+    .hero-text-box {
+        padding: 0 3rem;
+    }
+
+    .hero {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-description {
+        padding: 3rem 0 5rem 0;
+        line-height: 3rem;
+    }
+
+    .logo-and-links .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 6rem;
+        padding: 3rem 0;
+        justify-items: center;
+        align-items: center;
+        min-height: 15rem;
+    }
+
+    .career-header h2 {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }   
     
+    .content {
+        height: 65rem;
+    }
+
+    .col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .sticky-content-img {
+        max-width: 45rem;
+    }
+
+    .row {
+        justify-items: center;
+    }
+
+    .sticky-content-text {
+        text-align: justify;
+        width: 45rem;
+    }
+
+    .btn.learn-btn {
+        margin: 0 auto;
+    }
+
+    .dbl-field .field {
+        width: 35rem;
+    }
+
+    form .dbl-field {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 35rem;
+        margin: 0 auto;
+    }
+    
+    form .message textarea {
+        min-width: 10rem;
+        max-width: 35rem;
+        min-height: 15rem;
+    }
+    
+    .button-area button {
+        font-size: 3.5rem;
+        padding: 2rem 11rem;
+    }
+
+    .map iframe {
+        min-width: 40rem;
+        min-height: 30rem;
+    }
+
+    #myBtn {
+        right: 5rem;
+        bottom: 10rem;
+    }
+
 }

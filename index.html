@@ -21,9 +21,10 @@
   </head>
   <body>
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#11165;</button>
+    
+    <img onclick="topFunction()" id="myBtn" title="Go to top" src="img/icons/arrow-up.png" alt="arrow-up">
 
-      <header class="header container">
+      <header class="header container" onclick="toggleMobileMenu(this)">
         <a href="index.html">
           <img
             class="logo"
@@ -35,7 +36,7 @@
           <ul class="main-nav-list">
             <li><a class="main-nav-link" href="#">Services</a></li>
             <li><a class="main-nav-link" href="#">Blog</a></li>
-            <li><a class="main-nav-link" href="#">Contact</a></li>
+            <li><a class="main-nav-link" href="contact.html">Contact</a></li>
             <li><a class="main-nav-link" href="#">About</a></li>
             <li><a class="nav-cta" href="#">Career</a></li>
           </ul>
@@ -47,7 +48,7 @@
           <ul class="mobile-menu">
             <li><a class="main-nav-link" href="#">Services</a></li>
             <li><a class="main-nav-link" href="#">Blog</a></li>
-            <li><a class="main-nav-link" href="#">Contact</a></li>
+            <li><a class="main-nav-link" href="contact.html">Contact</a></li>
             <li><a class="main-nav-link" href="#">About</a></li>
             <li><a class="nav-cta" href="#">Career</a></li>
           </ul>
@@ -66,7 +67,7 @@
                 A gateway to a diverse range of it services.
               </p>
               <div class="buttons-hero">
-              <a href="#" class="btn btn-full margin-right-sm">Work with us</a>
+              <a href="contact.html" target="_blank" class="btn btn-full margin-right-sm">Work with us</a>
               <a href="#" class="btn btn-outline">Join our team</a>
             </div>
             </div>
@@ -150,7 +151,7 @@
         <div class="container">
           <div class="cta-contact reveal fade-bottom">
             <h2 class="cta-heading">Want to work with us?</h2>
-            <a href="#" class="btn btn-outline cta-btn">Contact Us</a>
+            <a href="contact.html" target="_blank" class="btn btn-outline cta-btn">Contact Us</a>
           </div>
         </div>
       </section>
@@ -293,7 +294,7 @@
           <div class="footer-links">
             <a href="#">Careers</a>
             <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="contact.html" target="_blank">Contact</a>
           </div>
          </div>
         </div>

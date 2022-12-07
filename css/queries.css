@@ -9,7 +9,7 @@
       }
 
     #myBtn {
-        font-size: 3.5rem;
+        width:  2.9rem;
     }
 
     .header {
@@ -256,7 +256,7 @@
     }
 
     #myBtn {
-        font-size: 4rem;
+        width: 2.8rem;
     }
 
 
@@ -371,8 +371,9 @@
     }
 
     #myBtn {
+        width: 2.7rem;
         right: 5rem;
-        bottom: 10rem;
+        bottom: 8rem;
     }
 
 }

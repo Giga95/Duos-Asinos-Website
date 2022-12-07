@@ -20,6 +20,25 @@ body {
   margin: 0 auto;
 }
 
+.half-heading {
+  height: 60rem;
+}
+
+.page-heading {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-heading h2 {
+  font-size: 6rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  height: 100%;
+  line-height: 70rem;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -136,14 +155,13 @@ body {
 #myBtn {
   display: none;
   position: fixed;
+  width: 3rem;
   bottom: 5rem;
-  right: 7rem;
+  right: 8rem;
   z-index: 99;
-  font-size: 5rem;
   border: none;
   outline: none;
   background-color: transparent;
-  color: #ffffff;
   mix-blend-mode: difference;
   cursor: pointer;
   animation: bounce2 2s ease infinite;
@@ -185,6 +203,10 @@ body {
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
+header.open {
+  background-color: #0a2136;
+}
+
 .open .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -193,6 +215,7 @@ body {
   background-color: #0a2136;
   z-index: -1;
   padding-top: 5rem;
+  border-top: #ffffff solid -0.1rem;
 }
 
 .mobile-menu {

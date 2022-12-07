@@ -588,7 +588,7 @@ form .button-area {
 }
 
 .map-address {
-  padding: 13rem 0;
+  padding: 8rem 0;
   display: flex;
   align-items: center;
   gap: 10rem;
@@ -741,3 +741,38 @@ form .button-area {
 .copy-text span {
   margin-left: 0.5rem;
 }
+
+
+/* Contact */
+
+.page-heading.contact {
+  background: linear-gradient(to top, #0a213673, #0a213673),  url("../img/contact.jpg");
+}
+
+.contact-blue {
+  background-color: #0a2136;
+  padding: 8rem 0;
+}
+
+.contact-blue .heading,
+.contact-blue .field label, 
+.contact-blue .message label {
+  color: #ffffff;
+}
+
+.contact-blue .heading::after {
+  background: #ffffff;
+}
+
+.contact-blue .button-area button {
+  background-color: transparent;
+  border: 0.4rem solid #ffffff;
+}
+
+.contact-sub-heading {
+  font-size: 4rem;
+  color: #0a2136;
+  text-align: center;
+  padding: 8rem 0 0 0;
+}
+

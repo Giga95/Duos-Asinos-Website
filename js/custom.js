@@ -69,7 +69,7 @@ buttonSubmit = form.querySelector(".button-area button");
 
 form.onsubmit = (e)=> {
     e.preventDefault();
-    statusTxt.style.color = "#0a2136";
+    statusTxt.style.color = "#a2a6a9";
     statusTxt.style.display = "block";
     statusTxt.innerText = "Sending your message...";
     form.classList.add("disabled");

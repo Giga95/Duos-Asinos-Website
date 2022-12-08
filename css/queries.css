@@ -1,4 +1,18 @@
 /*************************/
+/* BELOW 1648px (Smaller desktops) */
+/*************************/
+
+@media (max-width: 103em) {
+    .container .img-txt {
+        padding: 0 5rem;
+    }
+    
+    .img-txt img {
+        max-width: 80rem;
+    }
+}
+
+/*************************/
 /* BELOW 1344px (Smaller desktops) */
 /*************************/
 
@@ -92,6 +106,10 @@
         min-width: 75rem;
         min-height: 50rem;
         margin-left: 10rem;
+    }
+
+    .img-txt img {
+        max-width: 70rem;
     }
 
   }
@@ -191,8 +209,6 @@
         padding: 2rem 17rem;
     }
 
-    
-
 }
 
 
@@ -201,6 +217,14 @@
 /*************************/
 
 @media (max-width: 44em) {
+
+    .header {
+        background-color: #0a2136;
+        height: 10rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        border-bottom: 0.2rem solid #ffffff;
+    }
+
 
     .main-nav-link:link, 
     .main-nav-link:visited,

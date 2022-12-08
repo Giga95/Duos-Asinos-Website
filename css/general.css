@@ -24,12 +24,6 @@ body {
   height: 60rem;
 }
 
-.page-heading {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .page-heading h2 {
   font-size: 6rem;
   color: #ffffff;
@@ -203,10 +197,6 @@ body {
   transform: rotate(45deg) translate(-6px, -8px);
 }
 
-header.open {
-  background-color: #0a2136;
-}
-
 .open .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -231,4 +221,24 @@ header.open {
 .mobile-menu li {
   margin-bottom: 3rem;
   list-style-type: none;
+}
+
+a { 
+  text-decoration: none;
+}
+
+#content1 {
+  scroll-margin-top: 18rem;
+}
+
+#content2 {
+  scroll-margin-top: 26rem;
+}
+
+#content3 {
+  scroll-margin-top: 36rem;
+}
+
+#content4 {
+  scroll-margin-top: 45rem;
 }

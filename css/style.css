@@ -17,10 +17,9 @@
 }
 
 .header.sticky {
-  background-color: #0a2136;
-  height: 10rem;
+  background-color: rgba(0, 0, 0, 90%);
+  height: 7.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border-bottom: 0.2rem solid #ffffff;
   z-index: 99;
 }
 
@@ -130,7 +129,7 @@
 }
 
 .heading.services {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
@@ -141,13 +140,13 @@
 
 .heading.services::after {
   content: '';
-  width: 23.6rem;
+  width: 20rem;
   height: 0.4rem;
   background: #0a2136;
   position: absolute;
   bottom: -0.8rem;
   left: 50%;
-  margin-left: -11.8rem;
+  margin-left: -10rem;
 }
 
 .services-tabs {
@@ -251,7 +250,7 @@
 }
 
 .sub-heading-services {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
@@ -293,7 +292,7 @@
 }
 
 .value-title {
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #0a2136;
@@ -303,13 +302,13 @@
 
 .value-title::after {
   content: '';
-  width: 8rem;
+  width: 6rem;
   height: 0.3rem;
   background: #0a2136;
   position: absolute;
-  bottom: -1rem;
+  bottom: -0.8rem;
   left: 50%;
-  margin-left: -4rem;
+  margin-left: -3rem;
 }
 
 .value-description {
@@ -339,7 +338,6 @@
   justify-items: center;
   height: 50rem;
   padding: 13rem 0;
-  gap: 2rem;
 }
 
 .cta-heading {
@@ -365,76 +363,86 @@
 
 .career-section {
   padding-top: 3rem;
-  background-color: #0a2136;
-  padding-bottom: 20rem;
+  background-color: #ffffff;
 }
 
 .career {
   margin-top: 5rem;
-  color: #ffffff;
+  color: #0a2136;
 }
 
 .career::after {
-  background:#ffffff;
-  width: 34rem;
-  margin-left: -17rem;
+  background:#0a2136;
+  width: 32rem;
+  height: 0.3rem;
+  margin-left: -16rem;
 }
 
 .career-header h2 {
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: 500;
-  color: #fff;
+  color: #0a2136;
   margin-left: 20rem;
 }
 
 .career-header {
   width: 100%;
-  height: 9.6rem;
+  height: 7rem;
   position: sticky;
-  top: 10rem;
+  top: 7.5rem;
   display: flex;
   align-items: center;
   z-index: 98;
-  border-bottom: 0.5rem solid #ffffff;
+  border-bottom: 0.1rem solid #0a2136;
+  transition: all 0.3s;
+}
+
+.career-header:hover {
+  transform: scale(1.01);
 }
 
 .career-header:nth-of-type(1){
-   background-color: #2C557A;
+   background-color: #ffffff;
+   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .career-header:nth-of-type(2){
-   background-color: #2C557A;
+   background-color: #ffffff;
+   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
+
 }
 
 .career-header:nth-of-type(3){
-   background-color: #2C557A;
+   background-color: #ffffff;
+   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .career-header:nth-of-type(4){
-  background-color: #2C557A;
+  background-color: #ffffff;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .header-2{
-  top: 19.1rem;
-  border-bottom: 0.5rem solid #ffffff;
-  border-top: 0.5rem solid #ffffff;
+  top: 14.4rem;
+  border-top: 0.1rem solid #0a2136;
+  border-bottom: 0.1rem solid #0a2136;
 }
 
 .header-3{
-  top: 28.2rem;
-  border-bottom: 0.5rem solid #ffffff;
-  border-top: 0.5rem solid #ffffff;
+  top: 21.3rem;
+  border-top: 0.1rem solid #0a2136;
+  border-bottom: 0.1rem solid #0a2136;
 }
 
 .header-4 {
-    top: 36.8rem;
-    border-bottom: 0.5rem solid #ffffff;
-    border-top: 0.5rem solid #ffffff;
+    top: 28.1rem;
+    border-bottom: 0.1rem solid #0a2136;
+    border-top: 0.1rem solid #0a2136;
 }
 
 .content {
   height: 70rem;
-  background: #14426B;
+  background: #fff;
   display: grid;
   align-items: center;
 }
@@ -447,10 +455,10 @@
 
 .sticky-content-text {
   max-width: 60rem;
-  font-size: 1.6rem;
-  font-weight: 300;
+  font-size: 1.9rem;
+  font-weight: normal;
   line-height: 2.4rem;
-  color: #ffffff;
+  color: #0a2136;
 }
 
 .col-2 {
@@ -475,7 +483,10 @@
   max-width: 40rem;
   align-self: center;
   justify-self: start;
-  padding: 1.5rem 7rem;
+  color: #0a2136;
+  font-size: 2.2rem;
+  box-shadow: inset 0 0 0 0.2rem #0a2136;
+  padding: 1.3rem 3rem;
 }
 
 /* Career CTA sekcija */
@@ -631,11 +642,16 @@ form .button-area {
 
 .follow-us {
   background-color: #14426B;
-  text-align: center;
-  min-height: 15rem;
+  min-height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .follow-us img{
+  max-width: 22rem;
+  padding: 2rem 3rem;
+  margin-bottom: -1rem;
   transition: all 0.3s ease;
 }
 
@@ -652,17 +668,6 @@ form .button-area {
   margin-bottom: 1rem;
 }
 
-.follow-us-text::after {
-  content: '';
-  width: 9rem;
-  height: 0.2rem;
-  background: #ffffff;
-  position: absolute;
-  bottom: -0.5rem;
-  left: 50%;
-  margin-left: -4.5rem;
-}
-
 .logo-and-links {
   background-color: #0a2136;
 }
@@ -672,7 +677,7 @@ form .button-area {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  min-height: 15rem;
+  min-height: 11rem;
 }
 
 .useful-links {
@@ -687,12 +692,13 @@ form .button-area {
   font-size: 2.4rem;
   font-weight: normal;
   position: relative;
+  text-transform: uppercase;
 }
 
 .useful-links h5::after {
   content: '';
   width: 8rem;
-  height: 0.1rem;
+  height: 0.2rem;
   background: #ffffff;
   position: absolute;
   bottom: -0.5rem;
@@ -705,13 +711,14 @@ form .button-area {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   gap: 4rem;
+  text-transform: uppercase;
 }
 
 .footer-links a{
   text-decoration: none;
   color: #ffffff;
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 400;
   max-width: 6.7rem;
   transition: all 0.3s;
 }
@@ -721,15 +728,15 @@ form .button-area {
 }
 
 .copyright {
-  background-color: #040D15;
-  min-height: 15rem;
+  background-color: #0a2136;
+  min-height: 8rem;
 }
 
 .container .copy-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 15rem;
+  min-height: 8rem;
 }
 
 .copy-text {
@@ -816,6 +823,7 @@ form .button-area {
 .journey-row {
   display: flex;
   flex-direction: column;
+  padding-top: 5rem;
 }
 
 .col-3:nth-child(1) {
@@ -920,6 +928,7 @@ form .button-area {
 .wwd-text {
   font-size: 1.6rem;
   line-height: 2rem;
+  color: #0a2136;
   display: flex;
   flex-direction: column;
   gap: 3.5rem;

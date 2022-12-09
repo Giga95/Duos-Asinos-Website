@@ -219,10 +219,9 @@
 @media (max-width: 44em) {
 
     .header {
-        background-color: #0a2136;
+        background-color: rgba(0, 0, 0, 80%);
         height: 10rem;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        border-bottom: 0.2rem solid #ffffff;
     }
 
 
@@ -264,6 +263,11 @@
         align-items: center;
         gap: 3rem;
         margin-right: 0;
+    }
+
+    .btn, .btn:link, .btn:visited {
+        width: 26rem;
+        text-align: center;
     }
 
     .wrapper {

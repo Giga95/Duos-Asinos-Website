@@ -64,17 +64,27 @@
         margin-left: -8rem;
     }
     
-    .services-tabs {
-        gap: 6rem;
-    }
-    
-    .service {
+    .flip-cards {
         width: 34rem;
         height: 38rem;
     }
 
+    .card__face img {
+        width: 6.5rem;
+        height: 6.5rem;
+        object-fit: contain;
+    }
+
+    .card__face--front {
+        gap: 1rem;
+    }
+
     .tab-description {
-        padding-top: 3rem;
+        padding-top: 2rem;
+    }
+
+    .techs {
+        margin-top: 5rem;
     }
 
     .values-tabs {
@@ -163,23 +173,51 @@
         font-size: 5rem;
     }
 
-    .services-tabs, .values-tabs {
+    .flipping-cards-layout, .values-tabs {
         flex-direction: column;
         align-items: center;
     }
 
-    .service {
+    .flipping-cards-layout {
+        gap: 8rem;
+    }
+
+    .flip-cards {
         width: 40rem;
         height: 46rem;
+    }
+
+    .card__face {
+        gap: 0;
+
+    }
+
+    .card__face img {
+        width: 100%;
+        height: auto;
     }
 
     .tab-description {
         padding-top: 0;
     }
 
-    .tab-front, .tab-back {
+    .card__face--front, .card__face--back {
         padding: 5rem;
     }
+
+    .card__face--back h4 {
+        margin-top: 1rem;
+    }
+
+    .techs {
+        margin-top: 4rem;
+    }
+
+    .techs img {
+        height: 9rem;
+    }
+
+
 
     .values-tabs {
         gap: 5rem;
@@ -219,11 +257,10 @@
 @media (max-width: 44em) {
 
     .header {
-        background-color: rgba(0, 0, 0, 80%);
-        height: 10rem;
+        background-color: rgba(0, 0, 0, 90%);
+        height: 7.5rem;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     }
-
 
     .main-nav-link:link, 
     .main-nav-link:visited,
@@ -270,6 +307,11 @@
         text-align: center;
     }
 
+    .cta-contact .btn,
+    .cta-career .btn {
+        width: 34rem;
+    }
+
     .wrapper {
         width: 60rem;
     }
@@ -304,10 +346,7 @@
         font-size: 3.6rem;
     }
 
-    .cta-heading {
-        font-size: 3.8rem;
-        line-height: 4.4rem;
-    }
+   
 
     .hero-text-box {
         padding: 0 3rem;
@@ -331,6 +370,16 @@
         justify-items: center;
         align-items: center;
         min-height: 15rem;
+    }
+
+    .cta-heading {
+        font-size: 4.6rem;
+    }
+
+    .heading.career {
+        font-size: 3rem;
+        line-height: normal;
+        margin: 2rem 0 6rem;
     }
 
     .career-header h2 {
@@ -404,4 +453,17 @@
         bottom: 8rem;
     }
 
+}
+
+
+@media (max-width: 22.5em) {
+
+    .col-2 {
+        padding: 0 2rem;
+    }
+
+
+    .sticky-content-text {
+        width: 100%;
+    }
 }

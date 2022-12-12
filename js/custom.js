@@ -9,11 +9,21 @@ window.addEventListener("scroll", ()=>{
     }
 })
 
-// NAVBAR - RESPONSIVE //
+// NAVBAR - MOBILE RESPONSIVE //
 
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 }
+
+// FLIP CARDS //
+
+var cards = document.querySelectorAll('.flip-card');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('is-flipped');
+  });
+});
 
 // YEAR //
 

@@ -202,7 +202,7 @@
     }
 
     .card__face--front, .card__face--back {
-        padding: 5rem;
+        padding: 4rem;
     }
 
     .card__face--back h4 {

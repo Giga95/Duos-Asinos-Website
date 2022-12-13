@@ -448,7 +448,7 @@
 /* Career sekcija */
 
 .career-section {
-  padding-top: 3rem;
+  padding: 3rem 0 5rem;
   background-color: #ffffff;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .content {
-  height: 70rem;
+  height: 60rem;
   background-color: #fff;
   display: grid;
   align-items: center;

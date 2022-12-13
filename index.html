@@ -57,7 +57,8 @@
       </header>
 
     <main>
-      <section class="section-hero" id="bg-change"> 
+      <section class="section-hero">
+        <div id="bg-change">
           <div class="hero container">
             <div class="hero-text-box">
               <h1 class="heading-primary">
@@ -67,11 +68,13 @@
                 A gateway to a diverse range of it services.
               </p>
               <div class="buttons-hero">
-              <a href="contact.html" target="_blank" class="btn btn-full margin-right-sm" id="hBtn">Work with us</a>
-              <a href="#" class="btn btn-outline" id="hBtn">Join our team</a>
+              <a href="contact.html" target="_blank" class="btn btn-full margin-right-sm" id="hBtn-1">Work with us</a>
+              <a href="#" class="btn btn-outline" id="hBtn-2">Join our team</a>
             </div>
             </div>
           </div>
+        
+        </div>
       </section>
       <section class="section-services reveal fade-bottom">
         <div class="container">
@@ -320,5 +323,16 @@
       </div>
     </footer>
     <script src="js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#hBtn-1").hover(function(){
+          $("#bg-change").toggleClass("change-bg-1");
+          });
+          $("#hBtn-2").hover(function(){
+            $("#bg-change").toggleClass("change-bg-2");
+          });
+      });
+    </script>
   </body>
 </html>

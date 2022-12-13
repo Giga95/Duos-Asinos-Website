@@ -33,6 +33,26 @@ body {
   line-height: 70rem;
 }
 
+.change-bg-1 {
+  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+
+.change-bg-2 {
+  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: start;
+}
+
 .btn,
 .btn:link,
 .btn:visited {

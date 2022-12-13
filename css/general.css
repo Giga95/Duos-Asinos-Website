@@ -194,7 +194,7 @@ body {
 
 .open .bar1 {
   -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 7px);
 }
 
 .open .bar2 {
@@ -203,7 +203,7 @@ body {
 
 .open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -7px);
 }
 
 .open .mobile-menu {

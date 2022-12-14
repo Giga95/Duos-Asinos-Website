@@ -76,7 +76,7 @@
   color: #fff;
   font-size: 1.6rem;
   transition: all 0.3s ease;
-  background-color: rgba(10, 33, 54, 0.90);
+  background-color: rgba(10, 33, 54, 0.9);
   padding: 0.8rem 2.8rem;
   text-transform: uppercase;
   position: relative;
@@ -84,7 +84,7 @@
 
 .nav-cta::before,
 .nav-cta::after {
-  content:"";
+  content: "";
   width: 0;
   height: 0.2rem;
   position: absolute;
@@ -92,11 +92,11 @@
   background: #fff;
 }
 
-.nav-cta span::before, 
+.nav-cta span::before,
 .nav-cta span::after {
-  content:"";
-  width:0.2rem;
-  height:0;
+  content: "";
+  width: 0.2rem;
+  height: 0;
   position: absolute;
   transition: all 0.2s linear;
   background: #fff;
@@ -107,41 +107,43 @@
   width: 100%;
 }
 
-.nav-cta:hover span::before, 
+.nav-cta:hover span::before,
 .nav-cta:hover span::after {
   height: 100%;
 }
 
-.nav-cta::before, .nav-cta::after{
+.nav-cta::before,
+.nav-cta::after {
   transition-delay: 0.2s;
 }
-.nav-cta span::before, .nav-cta span::after{
+.nav-cta span::before,
+.nav-cta span::after {
   transition-delay: 0s;
 }
-.nav-cta::before{
+.nav-cta::before {
   right: 0;
   top: 0;
 }
-.nav-cta::after{
+.nav-cta::after {
   left: 0;
   bottom: 0;
 }
-.nav-cta span::before{
+.nav-cta span::before {
   left: 0;
   top: 0;
 }
-.nav-cta span::after{
+.nav-cta span::after {
   right: 0;
   bottom: 0;
 }
-.nav-cta:hover::before, .nav-cta:hover::after{
+.nav-cta:hover::before,
+.nav-cta:hover::after {
   transition-delay: 0s;
 }
-.nav-cta:hover span::before, 
-.nav-cta:hover span::after{
+.nav-cta:hover span::before,
+.nav-cta:hover span::after {
   transition-delay: 0.2s;
 }
-
 
 /* Hero sekcija */
 
@@ -195,7 +197,7 @@
 }
 
 .heading.services::after {
-  content: '';
+  content: "";
   width: 20rem;
   height: 0.4rem;
   background: #0a2136;
@@ -218,7 +220,6 @@
   width: 38.5rem;
   height: 44rem;
   perspective: 60rem;
-
 }
 
 .flip-card {
@@ -229,7 +230,7 @@
   transform-style: preserve-3d;
   transform-origin: center right;
   transition: transform 0.5s;
-  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0, 0, 0, 0.2);
 }
 
 .flip-card.is-flipped {
@@ -281,7 +282,7 @@
 }
 
 .tab-title::after {
-  content: '';
+  content: "";
   width: 10rem;
   height: 0.3rem;
   background: #0a2136;
@@ -310,7 +311,7 @@
 }
 
 .card__face--back h4::after {
-  content: '';
+  content: "";
   width: 9rem;
   height: 0.1rem;
   background: #ffffff;
@@ -334,7 +335,6 @@
 
 /* FLIPPING CARDS END */
 
-
 .sub-heading-services {
   font-size: 4.4rem;
   text-transform: uppercase;
@@ -346,7 +346,7 @@
 }
 
 .sub-heading-services::after {
-  content: '';
+  content: "";
   width: 15.8rem;
   height: 0.4rem;
   background: #0a2136;
@@ -387,7 +387,7 @@
 }
 
 .value-title::after {
-  content: '';
+  content: "";
   width: 6rem;
   height: 0.3rem;
   background: #0a2136;
@@ -398,16 +398,17 @@
 }
 
 .value-description {
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #0a2136;
-    text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #0a2136;
+  text-align: center;
 }
 
 /* CTA Contact sekcija */
 
 .cta-contact-section {
-  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
   height: 50rem;
   background-attachment: fixed;
   background-position: center;
@@ -415,7 +416,7 @@
   background-size: cover;
 }
 
-.cta-contact, 
+.cta-contact,
 .cta-career {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -458,7 +459,7 @@
 }
 
 .career::after {
-  background:#0a2136;
+  background: #0a2136;
   width: 32rem;
   height: 0.3rem;
   margin-left: -16rem;
@@ -483,7 +484,6 @@
   bottom: -0.8rem;
 }
 
-
 .career-header h2:hover::after {
   width: 100%;
   height: 0.2rem;
@@ -501,43 +501,42 @@
   border-bottom: 0.1rem solid #0a2136;
 }
 
-.career-header:nth-of-type(1){
-   background-color: #ffffff;
-   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
-}
-
-.career-header:nth-of-type(2){
-   background-color: #ffffff;
-   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
-
-}
-
-.career-header:nth-of-type(3){
-   background-color: #ffffff;
-   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
-}
-
-.career-header:nth-of-type(4){
+.career-header:nth-of-type(1) {
   background-color: #ffffff;
   box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
-.header-2{
+.career-header:nth-of-type(2) {
+  background-color: #ffffff;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.career-header:nth-of-type(3) {
+  background-color: #ffffff;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.career-header:nth-of-type(4) {
+  background-color: #ffffff;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.header-2 {
   top: 14.4rem;
   border-top: 0.1rem solid #0a2136;
   border-bottom: 0.1rem solid #0a2136;
 }
 
-.header-3{
+.header-3 {
   top: 21.3rem;
   border-top: 0.1rem solid #0a2136;
   border-bottom: 0.1rem solid #0a2136;
 }
 
 .header-4 {
-    top: 28.1rem;
-    border-bottom: 0.1rem solid #0a2136;
-    border-top: 0.1rem solid #0a2136;
+  top: 28.1rem;
+  border-bottom: 0.1rem solid #0a2136;
+  border-top: 0.1rem solid #0a2136;
 }
 
 .content {
@@ -551,7 +550,7 @@
   max-width: 80rem;
   width: 100%;
   height: auto;
-  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0, 0, 0, 0.2);
 }
 
 .sticky-content-text {
@@ -593,7 +592,8 @@
 /* Career CTA sekcija */
 
 .career-cta-section {
-  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
   height: 50rem;
   background-attachment: fixed;
   background-position: center;
@@ -709,7 +709,7 @@ form .button-area {
 .map iframe {
   min-width: 100rem;
   min-height: 70rem;
-  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0,0,0,0.2);
+  box-shadow: 0rem 0.3rem 2.5rem 0rem rgba(0, 0, 0, 0.2);
 }
 
 .address {
@@ -742,14 +742,14 @@ form .button-area {
 /* Footer sekcija */
 
 .follow-us {
-  background-color: #14426B;
+  background-color: #14426b;
   min-height: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.follow-us img{
+.follow-us img {
   max-width: 19rem;
   padding: 2rem 2rem;
   margin-bottom: -1rem;
@@ -797,7 +797,7 @@ form .button-area {
 }
 
 .useful-links h5::after {
-  content: '';
+  content: "";
   width: 8rem;
   height: 0.2rem;
   background: #ffffff;
@@ -815,7 +815,7 @@ form .button-area {
   text-transform: uppercase;
 }
 
-.footer-links a{
+.footer-links a {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.8rem;
@@ -842,7 +842,7 @@ form .button-area {
 
 .copy-text {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 
@@ -850,14 +850,14 @@ form .button-area {
   margin-left: 0.5rem;
 }
 
-
 /* Contact */
 
 .page-heading.contact {
-  background: linear-gradient(to top, #0a213673, #0a213673),  url("../img/contact.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
 }
 
 .contact-blue {
@@ -866,7 +866,7 @@ form .button-area {
 }
 
 .contact-blue .heading,
-.contact-blue .field label, 
+.contact-blue .field label,
 .contact-blue .message label {
   color: #ffffff;
 }
@@ -890,7 +890,8 @@ form .button-area {
 /* About */
 
 .page-heading.about {
-  background: linear-gradient(to top, #0a213673, #0a213673),  url("../img/duos-asinos.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/duos-asinos.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1036,7 +1037,7 @@ form .button-area {
 }
 
 .leaders {
-  background-color: #14426B;
+  background-color: #14426b;
   padding: 0 0 10rem 0;
 }
 
@@ -1044,7 +1045,6 @@ form .button-area {
   color: #ffffff;
   padding: 8rem 0 0 0;
 }
-
 
 .leaders .heading::after {
   background: #ffffff;
@@ -1061,7 +1061,7 @@ form .button-area {
 }
 
 .card {
-  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   width: 60rem;
   height: 60rem;
   position: relative;
@@ -1084,7 +1084,7 @@ form .button-area {
 }
 
 .name-title h4::after {
-  content: '';
+  content: "";
   width: 13rem;
   height: 0.3rem;
   background: #0a2136;

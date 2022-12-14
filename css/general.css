@@ -34,7 +34,8 @@ body {
 }
 
 .change-bg-1 {
-  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
   height: 100vh;
   height: 100%;
   width: 100%;
@@ -44,7 +45,8 @@ body {
 }
 
 .change-bg-2 {
-  background: linear-gradient(to top, #0a213673, #0a213673), url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
   height: 100vh;
   height: 100%;
   width: 100%;
@@ -107,7 +109,7 @@ body {
 }
 
 .heading::after {
-  content: '';
+  content: "";
   width: 23.6rem;
   height: 0.4rem;
   background: #0a2136;
@@ -182,19 +184,43 @@ body {
 }
 
 @keyframes bounce2 {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-2rem);}
-	60% {transform: translateY(-1rem);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-2rem);
+  }
+  60% {
+    transform: translateY(-1rem);
+  }
 }
 
 @keyframes bounce {
-  70% { transform:translateY(0%); }
-  80% { transform:translateY(-15%); }
-  90% { transform:translateY(0%); }
-  95% { transform:translateY(-7%); }
-  97% { transform:translateY(0%); }
-  99% { transform:translateY(-3%); }
-  100% { transform:translateY(0); }
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 /* mobile nav */
 
@@ -244,7 +270,6 @@ body {
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
-  
 }
 
 .mobile-menu li {
@@ -252,7 +277,7 @@ body {
   list-style-type: none;
 }
 
-a { 
+a {
   text-decoration: none;
 }
 
@@ -271,5 +296,3 @@ a {
 #content4 {
   scroll-margin-top: 35rem;
 }
-
-

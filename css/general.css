@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1;
 }
 
@@ -33,34 +33,12 @@ body {
   line-height: 70rem;
 }
 
-.change-bg-1 {
-  background: linear-gradient(to top, #0a213673, #0a213673),
-    url("../img/annie-spratt-QckxruozjRg-unsplash.jpg");
-  height: 100vh;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  align-items: center;
-  justify-items: start;
-}
-
-.change-bg-2 {
-  background: linear-gradient(to top, #0a213673, #0a213673),
-    url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
-  height: 100vh;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  align-items: center;
-  justify-items: start;
-}
-
 .btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
   text-decoration: none;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   padding: 1.5rem 3.5rem;
   cursor: pointer;
 }
@@ -99,9 +77,10 @@ body {
 }
 
 .heading {
-  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 4.4rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   margin: 0 0 9rem;
   color: #0a2136;

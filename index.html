@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -58,7 +56,6 @@
 
     <main>
       <section class="section-hero">
-        <div id="bg-change">
           <div class="hero container">
             <div class="hero-text-box">
               <h1 class="heading-primary">
@@ -73,8 +70,6 @@
             </div>
             </div>
           </div>
-        
-        </div>
       </section>
       <section class="section-services reveal fade-bottom">
         <div class="container">
@@ -326,11 +321,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
-        $("#hBtn-1").hover(function(){
-          $("#bg-change").toggleClass("change-bg-1");
+          $("#hBtn-1").hover(function(){
+            $(".section-hero").css("background-image", "url('img/annie-spratt-QckxruozjRg-unsplash.jpg')");
           });
           $("#hBtn-2").hover(function(){
-            $("#bg-change").toggleClass("change-bg-2");
+            $(".section-hero").css("background-image", "url('img/contact.jpg')");
+          });
+          $(".section-hero").hover(function(){
+            $(this).css("background-image", "url('img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg')");
           });
       });
     </script>

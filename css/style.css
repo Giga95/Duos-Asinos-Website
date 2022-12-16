@@ -149,7 +149,7 @@
 /* Hero sekcija */
 
 .section-hero {
-  background-image: url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  background-image: url("../img/hero-img0.jpg");
   height: 100vh;
   width: 100%;
   display: grid;
@@ -506,22 +506,18 @@
 
 .career-header:nth-of-type(1) {
   background-color: #ffffff;
-  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .career-header:nth-of-type(2) {
   background-color: #ffffff;
-  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .career-header:nth-of-type(3) {
   background-color: #ffffff;
-  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .career-header:nth-of-type(4) {
   background-color: #ffffff;
-  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.05);
 }
 
 .header-2 {

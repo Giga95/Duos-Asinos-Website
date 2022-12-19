@@ -70,3 +70,17 @@ function showSlide(n) {
     }, 100);
   }
   
+
+
+
+  // CARD ABOUT //
+  const card = document.querySelector(".card");
+  const overlay = document.querySelector(".overlay");
+
+  card.addEventListener("click", function () {
+    if (overlay.style.height === "100%") {
+      overlay.style.height = "30%";
+    } else {
+      overlay.style.height = "100%";
+    }
+  });

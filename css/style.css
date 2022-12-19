@@ -971,7 +971,7 @@ form .button-area {
 
 .cta-box h4 {
   padding: 2rem 3rem 0;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 6rem;
   text-transform: uppercase;
 }
@@ -1064,7 +1064,6 @@ form .button-area {
 }
 
 .name-title {
-  height: 15rem;
   text-align: center;
   line-height: 3rem;
   position: absolute;
@@ -1076,7 +1075,7 @@ form .button-area {
 .name-title h4 {
   font-size: 3.6rem;
   position: relative;
-  padding: 5rem 0 0 0;
+  padding: 10rem 0 0 0;
 }
 
 .name-title h4::after {
@@ -1096,9 +1095,8 @@ form .button-area {
 }
 
 .image {
-  display: block;
   width: 100%;
-  height: auto;
+  height: 70%;
 }
 
 .overlay {
@@ -1109,7 +1107,7 @@ form .button-area {
   background-color: #ffffff;
   overflow: hidden;
   width: 100%;
-  height: 20rem;
+  height: 30%;
   border-top: #0a2136 solid 0.1rem;
   transition: 0.4s ease;
 }
@@ -1122,7 +1120,7 @@ form .button-area {
   color: #0a2136;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1200,7 +1198,7 @@ form .button-area {
 
 .slide-text p {
   font-size: 1.6rem;
-  width: 50rem;
+  max-width: 50rem;
   align-self: flex-start;
   color: #0a2136;
 }

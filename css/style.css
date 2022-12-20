@@ -1061,6 +1061,7 @@ form .button-area {
   width: 60rem;
   height: 60rem;
   position: relative;
+  cursor: pointer;
 }
 
 .name-title {

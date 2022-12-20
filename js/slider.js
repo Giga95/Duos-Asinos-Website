@@ -74,13 +74,15 @@ function showSlide(n) {
 
 
   // CARD ABOUT //
-  const card = document.querySelector(".card");
-  const overlay = document.querySelector(".overlay");
+const aboutCards = document.querySelectorAll(".card");
 
-  card.addEventListener("click", function () {
+  aboutCards.forEach(card => {
+  card.addEventListener("click", function() {
+    const overlay = this.querySelector(".overlay");
     if (overlay.style.height === "100%") {
       overlay.style.height = "30%";
     } else {
       overlay.style.height = "100%";
     }
   });
+});

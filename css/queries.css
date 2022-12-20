@@ -431,18 +431,48 @@
   }
 
   /* ABOUT */
-
-  .card {
-    width: 45rem;
-    height: 45rem;
+  .journey-row {
+    padding: 2rem;
   }
 
-  .card .image {
-    object-fit: cover;
+  .about-text {
+    padding: 0 5rem;
+    line-height: 2rem;
+    width: 95%;
   }
 
-  .overlay {
-    height: 15rem;
+  .about.heading {
+    font-size: 3rem;
+  }
+
+  .about.heading::after {
+    bottom: -0.2rem;
+  }
+
+  .journey-img {
+    min-width: 80%;
+    min-height: 30rem;
+  }
+
+  .cta-box {
+    width: 80%;
+  }
+
+  .cta-box:nth-child(1) {
+    margin-bottom: 8rem;
+  }
+
+  .cta-box .a-down {
+    right: 45%;
+  }
+
+  .col-3 img:hover,
+  .cta-box:hover {
+    transform: scale(1);
+  }
+
+  .col-3:last-child {
+    display: none;
   }
 
   .slides {
@@ -457,7 +487,8 @@
     align-self: center;
   }
   .slide-text p {
-    width: 50rem;
+    width: 35rem;
+    line-height: 2rem;
     align-self: center;
     padding-bottom: 5rem;
   }
@@ -583,13 +614,69 @@
     bottom: 8rem;
   }
   /* ABOUT */
+  .journey-row {
+    padding: 0;
+  }
+
+  .about-text {
+    padding: 0 5rem;
+    line-height: 1.8rem;
+    width: 95%;
+  }
+
+  .about.heading {
+    font-size: 2.4rem;
+  }
+
+  .about.heading::after {
+    bottom: 0rem;
+  }
+
+  .journey-img {
+    min-width: 35rem;
+    min-height: 30rem;
+  }
+
+  .cta-box {
+    width: 35rem;
+  }
+
+  .cta-box .a-down {
+    right: 15rem;
+  }
+
+  .col-3 img:hover,
+  .cta-box:hover {
+    transform: scale(1);
+  }
+
   .card {
-    max-width: 40rem;
-    max-height: 40rem;
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .card .image {
+    object-fit: cover;
+  }
+
+  .name-title h4 {
+    font-size: 2.4rem;
+    padding: 9rem 0 0 0;
+  }
+
+  .name-title h4::after {
+    bottom: -0.9rem;
+  }
+
+  .name-title p {
+    padding: 1.2rem 3rem 3rem;
+    font-size: 1.8rem;
   }
 
   .name-title p:nth-child(3) {
-    max-width: 45rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    width: 35rem;
     text-align: justify;
     margin: 0 auto;
   }

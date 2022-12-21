@@ -1264,3 +1264,167 @@ form .button-area {
 }
 
 /* SLIDER END */
+
+/* BLOG PAGE */
+
+.page-heading.blog {
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url("../img/blog-heading.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-section {
+  padding: 2rem 0 10rem 0;
+  background-color: #ffffff;
+}
+
+.category-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-head ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.category-title {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  color: #0a2136;
+  margin: 5rem 3rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.active-category {
+  border-bottom: #0a2136 solid 0.2rem;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.all {
+  transition: all 0.3s ease;
+}
+
+.all.career-category,
+.all.news-category,
+.all.study-category,
+.all.tech-category,
+.all.other-category {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.post-box {
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 5rem;
+  transition: all 0.3s ease;
+}
+
+.post-box:hover {
+  transform: scale(1.02);
+}
+
+.post-img {
+  overflow: hidden;
+}
+
+.post-img img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.post-img img:hover {
+  transform: scale(1.15);
+}
+
+.post-content,
+.blog-info {
+  padding: 2rem;
+}
+
+.post-content h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: #0a2136;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.post-content h2:hover {
+  color: #14426b;
+}
+
+.post-content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+.blog-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-info p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0a2136;
+}
+
+.read-btn {
+  font-size: 1.6rem;
+  padding: 0.8rem 3.6rem;
+  border: none;
+  background-color: #14426b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.read-btn:hover {
+  transform: scale(1.1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-box {
+  border: none;
+  border-bottom: 0.1rem solid #0a2136;
+  padding: 1rem;
+  margin-right: 2rem;
+  width: 25rem;
+}
+
+.search .search-box:focus {
+  border: none;
+}
+
+.submit-search {
+  position: absolute;
+  right: 2.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-search img {
+  width: 2.2rem;
+}

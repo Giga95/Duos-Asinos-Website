@@ -492,6 +492,27 @@
     align-self: center;
     padding-bottom: 5rem;
   }
+
+  /* BLOG */
+  .category-head {
+    flex-direction: column;
+  }
+
+  .category-title {
+    margin: 5rem 2rem;
+  }
+
+  .category-search {
+    padding-bottom: 8rem;
+  }
+
+  .posts {
+    grid-template-columns: 1fr;
+  }
+
+  .post-content p {
+    font-weight: 400;
+  }
 }
 
 /*************************/
@@ -679,6 +700,14 @@
     width: 35rem;
     text-align: justify;
     margin: 0 auto;
+  }
+  /* BLOG */
+  .category-head {
+    flex-direction: column;
+  }
+
+  .category-title {
+    margin: 5rem 1.2rem;
   }
 }
 

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Duos Asinos Consulting &#8226; Blog</title>
+  </head>
+  <body>
+    <img
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      src="img/icons/arrow-up.png"
+      alt="arrow-up"
+    />
+
+    <header class="header container" onclick="toggleMobileMenu(this)">
+      <a href="index.html">
+        <img
+          class="logo"
+          src="img/logo/DuosAsinos NoviLogoZaWeb.png"
+          alt="Duos Asinos - Logo"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Services</a></li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+          <li><a class="main-nav-link" href="about.html">About</a></li>
+          <li>
+            <a class="nav-cta" href="#"><span>Career</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a class="main-nav-link" href="#">Services</a></li>
+          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
+          <li><a class="main-nav-link" href="contact.html">Contact</a></li>
+          <li><a class="main-nav-link" href="about.html">About</a></li>
+          <li>
+            <a class="nav-cta" href="#"><span>Career</span></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="half-heading">
+        <div class="page-heading blog">
+          <h2>Blog</h2>
+        </div>
+      </section>
+      <section class="blog-section">
+        <div class="container">
+          <div class="category-filter">
+            <div class="category-head">
+              <div class="category-lists">
+                <ul>
+                  <div class="category-title active-category" id="all">
+                    <li>All</li>
+                  </div>
+                  <div class="category-title" id="career-category">
+                    <li>Career</li>
+                  </div>
+                  <div class="category-title" id="news-category">
+                    <li>News</li>
+                  </div>
+                  <div class="category-title" id="study-category">
+                    <li>Study</li>
+                  </div>
+                  <div class="category-title" id="tech-category">
+                    <li>Tech</li>
+                  </div>
+                  <div class="category-title" id="other-category">
+                    <li>Other</li>
+                  </div>
+                </ul>
+              </div>
+              <div class="category-search">
+                <form class="search">
+                  <input
+                    class="search-box"
+                    type="text"
+                    placeholder="Search..."
+                  />
+                  <button type="submit" class="submit-search">
+                    <img src="img/icons/search.png" alt="search" />
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="posts">
+              <div class="all career-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/blog-post0.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <a href="#"><h2>Lorem ipsum dolor sit amet</h2></a>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>Career</p>
+                    <a href="#" type="button" class="read-btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="all news-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/blog-post1.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>News</p>
+                    <button type="button" class="read-btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="all study-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/hero-img1.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>Study</p>
+                    <button type="button" class="read-btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="all career-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/blog-post2.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>Career</p>
+                    <button type="button" class="read-btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="all tech-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/blog-post3.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>Tech</p>
+                    <button type="button" class="read-btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+              <div class="all other-category">
+                <div class="post-box">
+                  <a href="#">
+                    <div class="post-img">
+                      <img src="img/blog-post4.jpg" alt="post" />
+                    </div>
+                  </a>
+
+                  <div class="post-content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus recusandae aspernatur possimus illum, repellat
+                      ad quasi earum, illo voluptatibus minima fugiat saepe
+                      magni corporis vero eius accusantium quidem, consectetur
+                      nesciunt!
+                    </p>
+                  </div>
+                  <div class="blog-info">
+                    <p>Other</p>
+                    <button type="button" class="read-btn">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer reveal fade-bottom">
+      <div class="follow-us">
+        <h3 class="follow-us-text">Follow us on</h3>
+        <a
+          href="https://www.linkedin.com/company/duos-asinos-consulting/mycompany/"
+          target="_blank"
+          ><img src="img/icons/linkedin-logo.png" alt=""
+        /></a>
+      </div>
+      <div class="logo-and-links">
+        <div class="container">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="img/logo/DuosAsinos NoviLogoZaWeb.png"
+              alt=""
+          /></a>
+          <div class="useful-links">
+            <h5>Useful Links</h5>
+            <div class="footer-links">
+              <a href="#">Careers</a>
+              <a href="#">Services</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p class="copy-text">
+            Copyright &copy; Duos Asinos <span class="year">2022</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/custom.js"></script>
+    <script src="js/category-filter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  </body>
+</html>

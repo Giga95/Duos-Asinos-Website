@@ -1544,6 +1544,12 @@ form .button-area {
   position: relative;
 }
 
+.tab-btn.active-tab {
+  background-color: #14426b;
+  box-shadow: inset 0 0 0 0.3rem rgb(255, 255, 255);
+  color: #ffffff;
+}
+
 .services-white {
   padding-top: 10rem;
   color: #ffffff;
@@ -1557,7 +1563,7 @@ form .button-area {
   display: flex;
   color: #fff;
   justify-content: space-between;
-  padding-bottom: 100rem;
+  padding-bottom: 90rem;
 }
 
 .service-title {
@@ -1575,7 +1581,7 @@ form .button-area {
 .service-title h2 {
   background-color: #ffffff;
   padding: 1.5rem 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   color: #0a2136;
   font-size: 1.8rem;
   font-weight: 600;
@@ -1586,7 +1592,7 @@ form .button-area {
 
 .services-tab-content {
   width: 100%;
-  height: 75rem;
+  height: 70rem;
   display: none;
   position: absolute;
   left: 0%;
@@ -1608,7 +1614,8 @@ form .button-area {
   border-top: #ffffff 0.5rem solid;
 }
 
-.sd-list {
+.sd-list,
+.qa-list {
   height: 100%;
   width: 100%;
   display: flex;
@@ -1619,26 +1626,30 @@ form .button-area {
 }
 
 .sd-list li,
-.vd-list li {
+.vd-list li,
+.qa-list li {
   font-size: 1.8rem;
   padding-bottom: 3rem;
 }
 
-.sd-tech-we-use {
+.sd-tech-we-use,
+.qa-tech-we-use {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
 .sd-tech-we-use h3,
-.vd-tech-we-use h3 {
+.vd-tech-we-use h3,
+.qa-tech-we-use h3 {
   font-size: 3rem;
   font-weight: 700;
   align-self: center;
   padding-bottom: 6rem;
 }
 
-.sd-icons {
+.sd-icons,
+.qa-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1662,7 +1673,8 @@ form .button-area {
   align-self: flex-end;
 }
 
-.sd-tech-we-use hr {
+.sd-tech-we-use hr,
+.qa-tech-we-use hr {
   width: 80%;
   margin: 0 auto;
   background-color: #0a2136;
@@ -1670,7 +1682,8 @@ form .button-area {
   border: none;
   margin-bottom: 4rem;
 }
-.sd-tech-we-use p {
+.sd-tech-we-use p,
+.qa-tech-we-use p {
   width: 80%;
   margin: 0 auto;
   font-size: 1.6rem;
@@ -1737,4 +1750,29 @@ form .button-area {
 .vd-text {
   font-size: 1.6rem;
   width: 80%;
+}
+
+.tab-content-qa {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #0a2136;
+  background-color: white;
+  border-top: #ffffff 0.5rem solid;
+}
+
+.selenium {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selenium p {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 2rem;
 }

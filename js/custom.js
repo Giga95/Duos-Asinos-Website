@@ -15,6 +15,26 @@ function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 }
 
+// SERVICES TABS //
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabContent = document.querySelectorAll('.services-tab-content');
+
+tabBtns.forEach(btn => {
+  btn.addEventListener('click', function() {
+    const tab = this.dataset.tab;
+
+    tabBtns.forEach(btn => {
+      btn.classList.remove('active-tab');
+    });
+    this.classList.add('active-tab');
+
+    tabContent.forEach(item => {
+      item.style.display = 'none';
+    });
+    document.querySelector(`#${tab}`).style.display = 'block';
+  });
+});
+
 // FLIP CARDS //
 
 let cards = document.querySelectorAll('.flip-card');

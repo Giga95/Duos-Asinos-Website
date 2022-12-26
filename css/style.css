@@ -1528,3 +1528,213 @@ form .button-area {
 .social-share-icons img:hover {
   transform: scale(1.1);
 }
+
+/* SERVICES PAGE */
+
+.page-heading.services {
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url(../img/services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-services-blue {
+  background-color: #0a2136;
+  position: relative;
+}
+
+.services-white {
+  padding-top: 10rem;
+  color: #ffffff;
+}
+
+.services-white::after {
+  background: #ffffff;
+}
+
+.services-tabs {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding-bottom: 100rem;
+}
+
+.service-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.service-title img {
+  height: 9rem;
+  width: 9rem;
+  object-fit: contain;
+}
+
+.service-title h2 {
+  background-color: #ffffff;
+  padding: 1.5rem 5rem;
+  margin-bottom: 3rem;
+  color: #0a2136;
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 30rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.services-tab-content {
+  width: 100%;
+  height: 75rem;
+  display: none;
+  position: absolute;
+  left: 0%;
+  transition: all 0.5s ease;
+}
+
+.services-tab-content.active-tab {
+  display: block;
+}
+
+.tab-content-sd {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  color: #0a2136;
+  background-color: white;
+  border-top: #ffffff 0.5rem solid;
+}
+
+.sd-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14426b;
+  color: #ffffff;
+}
+
+.sd-list li,
+.vd-list li {
+  font-size: 1.8rem;
+  padding-bottom: 3rem;
+}
+
+.sd-tech-we-use {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sd-tech-we-use h3,
+.vd-tech-we-use h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  align-self: center;
+  padding-bottom: 6rem;
+}
+
+.sd-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  padding-bottom: 3rem;
+}
+
+.html,
+.css,
+.dotnet,
+.vue,
+.react,
+.java,
+.php {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  gap: 4rem;
+  align-self: flex-end;
+}
+
+.sd-tech-we-use hr {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #0a2136;
+  height: 0.3rem;
+  border: none;
+  margin-bottom: 4rem;
+}
+.sd-tech-we-use p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+}
+
+.tab-content-vd {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: #0a2136;
+  background-color: white;
+  border-top: #ffffff 0.5rem solid;
+}
+
+.vd-tech-we-use {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #14426b;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.vd-tech-we-use h3 {
+  padding-bottom: 10rem;
+}
+
+.vd-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1rf 1fr;
+  gap: 18rem;
+  padding-bottom: 5rem;
+}
+
+.ai,
+.ae,
+.ps,
+.id {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.8rem;
+  gap: 2rem;
+}
+
+.ai img,
+.ae img,
+.ps img,
+.id img {
+  width: 7rem;
+  align-self: center;
+}
+
+.vd-text p {
+  padding-bottom: 3rem;
+}
+
+.vd-text {
+  font-size: 1.6rem;
+  width: 80%;
+}

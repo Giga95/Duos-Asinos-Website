@@ -35,6 +35,39 @@ tabBtns.forEach(btn => {
   });
 });
 
+// INSIGHTS COUNTER //
+
+const counters = document.querySelectorAll('.counter');
+const speed = 10;
+
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		if (entry.isIntersecting) {
+			const counter = entry.target;
+			let count = +counter.innerText;
+			const target = +counter.getAttribute('data-target');
+
+			const updateCount = () => {
+				if (count < target) {
+					count++;
+					counter.innerText = count;
+				} else {
+					clearInterval(intervalId);
+				}
+			};
+
+			const intervalId = setInterval(updateCount, speed);
+		}
+	});
+});
+
+counters.forEach((counter) => {
+	observer.observe(counter);
+});
+
+
+
+
 // FLIP CARDS //
 
 let cards = document.querySelectorAll('.flip-card');

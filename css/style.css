@@ -1542,6 +1542,7 @@ form .button-area {
 .our-services-blue {
   background-color: #0a2136;
   position: relative;
+  padding: 0 5rem;
 }
 
 .tab-btn.active-tab {
@@ -1563,7 +1564,7 @@ form .button-area {
   display: flex;
   color: #fff;
   justify-content: space-between;
-  padding-bottom: 90rem;
+  padding-bottom: 80rem;
 }
 
 .service-title {
@@ -1775,4 +1776,99 @@ form .button-area {
   width: 100%;
   text-align: center;
   padding-top: 2rem;
+}
+
+.insights {
+  background-color: #0a2136;
+  color: #ffffff;
+}
+
+.insights h3 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8rem 0 10rem;
+}
+
+.counter-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.counter-data img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+}
+
+.counter-data h4 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.numbers {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.why-partnership {
+  padding: 10rem 0;
+  background-color: #ffffff;
+}
+
+.cta-partnership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  padding: 0 5rem;
+}
+
+.cta-partnership img {
+  width: 50%;
+  height: 75rem;
+  object-fit: cover;
+}
+
+.partnership-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: #0a2136;
+}
+
+.partnership-text h3 {
+  font-size: 3rem;
+  padding: 0 0 3rem 0;
+}
+
+.partnership-text p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.btn-services {
+  margin-top: 2rem;
+  background-color: #0a2136;
+  width: 30rem;
+  padding: 1.5rem 5rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.2rem;
+  transition: all 0.3s ease;
+}
+
+.btn-services:hover {
+  transform: scale(1.06);
 }

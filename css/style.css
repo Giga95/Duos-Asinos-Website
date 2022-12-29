@@ -1547,7 +1547,7 @@ form .button-area {
 
 .tab-btn.active-tab {
   background-color: #14426b;
-  box-shadow: inset 0 0 0 0.3rem rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 0.2rem rgb(255, 255, 255);
   color: #ffffff;
 }
 
@@ -1589,6 +1589,11 @@ form .button-area {
   width: 30rem;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.service-title h2:hover {
+  transform: scale(1.1);
 }
 
 .services-tab-content {
@@ -1612,7 +1617,7 @@ form .button-area {
   align-items: center;
   color: #0a2136;
   background-color: white;
-  border-top: #ffffff 0.5rem solid;
+  border-top: #ffffff 0.2rem solid;
 }
 
 .sd-list,
@@ -1638,6 +1643,7 @@ form .button-area {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 0 2rem;
 }
 
 .sd-tech-we-use h3,
@@ -1656,6 +1662,10 @@ form .button-area {
   align-items: center;
   gap: 7rem;
   padding-bottom: 3rem;
+}
+
+.qa-icons img {
+  width: 7rem;
 }
 
 .html,
@@ -1679,7 +1689,7 @@ form .button-area {
   width: 80%;
   margin: 0 auto;
   background-color: #0a2136;
-  height: 0.3rem;
+  height: 0.2rem;
   border: none;
   margin-bottom: 4rem;
 }
@@ -1699,7 +1709,7 @@ form .button-area {
   align-items: center;
   color: #0a2136;
   background-color: white;
-  border-top: #ffffff 0.5rem solid;
+  border-top: #ffffff 0.2rem solid;
 }
 
 .vd-tech-we-use {
@@ -1761,7 +1771,7 @@ form .button-area {
   align-items: center;
   color: #0a2136;
   background-color: white;
-  border-top: #ffffff 0.5rem solid;
+  border-top: #ffffff 0.2rem solid;
 }
 
 .selenium {

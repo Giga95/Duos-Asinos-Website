@@ -132,6 +132,44 @@
     height: 30rem;
     font-size: 3.8rem;
   }
+
+  /* SERVICES PAGE */
+  .tab-content-sd {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sd-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .sd-icons img,
+  .qa-icons img {
+    width: 7rem;
+  }
+
+  .sd-tech-we-use h3,
+  .vd-tech-we-use h3,
+  .qa-tech-we-use h3 {
+    padding-bottom: 4rem;
+  }
+
+  .sd-tech-we-use hr,
+  .qa-tech-we-use hr {
+    margin-bottom: 1rem;
+  }
+
+  .cta-partnership {
+    gap: 6rem;
+  }
+
+  .cta-partnership img {
+    height: 65rem;
+  }
 }
 
 /*************************/
@@ -346,6 +384,16 @@
   .page-heading.blog-post h2 {
     font-size: 5rem;
   }
+
+  /* SERVICES PAGE */
+  .service-title h2 {
+    width: 26rem;
+    padding: 1.5rem 3rem;
+  }
+
+  .cta-partnership img {
+    height: 50rem;
+  }
 }
 
 /*************************/
@@ -526,6 +574,65 @@
   .author-share {
     flex-direction: column;
     gap: 10rem;
+  }
+  /* SERVICES PAGE */
+
+  .heading.services-white {
+    margin: 0 0 5rem;
+  }
+
+  .services-tabs {
+    flex-direction: column;
+  }
+
+  .service-title {
+    gap: 2rem;
+  }
+
+  .services-tab-content {
+    top: 52%;
+    height: 95rem;
+  }
+  .tab-content-sd {
+    grid-template-columns: 1fr;
+  }
+
+  .tab-content-vd {
+    grid-template-columns: 1fr;
+  }
+
+  .vd-icons {
+    gap: 8rem;
+    padding: 0;
+  }
+
+  .tab-content-qa {
+    grid-template-columns: 1fr;
+  }
+
+  .sd-list li,
+  .vd-list li,
+  .qa-list li {
+    padding: 1.5rem 0;
+  }
+  .insights {
+    padding-top: 24rem;
+  }
+  .why-partnership {
+    padding: 8rem 0;
+  }
+  .cta-partnership {
+    flex-direction: column;
+  }
+  .cta-partnership img {
+    width: 100%;
+  }
+  .partnership-text {
+    align-items: center;
+    text-align: justify;
+  }
+  .partnership-text h3 {
+    text-align: center;
   }
 }
 
@@ -726,6 +833,26 @@
   /* BLOG POST PAGE */
   .page-heading.blog-post h2 {
     font-size: 3rem;
+  }
+
+  /* SERVICES PAGE */
+  .sd-tech-we-use h3,
+  .vd-tech-we-use h3,
+  .qa-tech-we-use h3 {
+    text-align: center;
+    line-height: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .counters {
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .cta-partnership img {
+    height: 35rem;
+  }
+  .partnership-text h3 {
+    line-height: 4rem;
   }
 }
 

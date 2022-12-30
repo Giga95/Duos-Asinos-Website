@@ -1558,6 +1558,7 @@ form .button-area {
 
 .services-white::after {
   background: #ffffff;
+  height: 0.3rem;
 }
 
 .services-tabs {
@@ -1881,4 +1882,182 @@ form .button-area {
 
 .btn-services:hover {
   transform: scale(1.06);
+}
+
+/* CAREER PAGE */
+
+.page-heading.career-page {
+  background: linear-gradient(to top, #0a213673, #0a213673),
+    url(../img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading.career-white {
+  color: #ffffff;
+  padding-top: 10rem;
+}
+
+.career-white::after {
+  width: 36rem;
+  height: 0.3rem;
+  background: #ffffff;
+  margin-left: -18rem;
+}
+
+.working-with-us-blue {
+  background-color: #0a2136;
+  padding-bottom: 20rem;
+}
+
+.working-with-us-blue .container {
+  position: relative;
+}
+
+.career-gallery {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  position: absolute;
+}
+
+.career-img {
+  position: relative;
+}
+
+.career-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.career-img p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 2.4rem;
+  background-color: rgba(10, 33, 54, 0.9);
+  width: 100%;
+  text-align: center;
+  height: 7rem;
+  line-height: 7rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.career-benefits {
+  padding-top: 25rem;
+}
+
+.career-benefits::after {
+  width: 15rem;
+  margin-left: -7.5rem;
+}
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 8rem;
+  padding-bottom: 10rem;
+}
+
+.benefit-card {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  height: 23rem;
+  padding: 4rem 6rem;
+  color: #0a2136;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.benefit-card img {
+  width: 9rem;
+  height: 9rem;
+  object-fit: contain;
+}
+
+.benefit-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.benefit-card-text h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  position: relative;
+  line-height: 3rem;
+}
+
+.benefit-card-text h4::after {
+  content: "";
+  width: 8rem;
+  height: 0.2rem;
+  background: #0a2136;
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+}
+
+.benefit-card-text p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.other-perks {
+  background-color: #14426b;
+  color: #ffffff;
+  padding: 5rem 0 10rem;
+}
+
+.perks-heading {
+  font-size: 3.8rem;
+  text-align: center;
+  padding-bottom: 8rem;
+}
+
+.perks-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10rem;
+}
+
+.perk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 70%;
+}
+
+.perk img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+.perk hr {
+  width: 5rem;
+  height: 0.2rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.perk p {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2.2rem;
+  padding-top: 1rem;
+}
+
+.heading.career-open-positions {
+  padding-top: 7rem;
 }

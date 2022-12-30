@@ -848,9 +848,11 @@
     flex-direction: column;
     gap: 6rem;
   }
+
   .cta-partnership img {
     height: 35rem;
   }
+
   .partnership-text h3 {
     line-height: 4rem;
   }

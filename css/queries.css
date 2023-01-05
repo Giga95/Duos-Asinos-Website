@@ -170,6 +170,20 @@
   .cta-partnership img {
     height: 65rem;
   }
+
+  /* CAREER PAGE */
+  .career-gallery {
+    width: 95%;
+    left: 2.5%;
+  }
+
+  .benefits-list {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .career-benefits {
+    padding-top: 10%;
+  }
 }
 
 /*************************/
@@ -265,6 +279,21 @@
   }
   .slides {
     width: 100rem;
+  }
+  /* CAREER PAGE */
+  .benefits-list {
+    grid-template-columns: 1fr;
+    width: 75%;
+  }
+  #results-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .job-apply-form p {
+    padding: 0 20rem 7rem;
+  }
+  .career-benefits {
+    padding-top: 10%;
   }
 }
 
@@ -634,6 +663,64 @@
   .partnership-text h3 {
     text-align: center;
   }
+  /* CAREER PAGE */
+  .working-with-us-blue .career-white::after {
+    width: 24rem;
+    margin-left: -12rem;
+  }
+
+  .heading.career-open-positions {
+    margin-bottom: 5rem;
+  }
+  .career-benefits {
+    padding-top: 180%;
+  }
+  .career-gallery {
+    flex-direction: column;
+    width: 90%;
+    left: 5%;
+  }
+  .benefits-list {
+    width: 90%;
+  }
+  .perks-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  #results-list {
+    grid-template-columns: 1fr;
+  }
+
+  .filter {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 19rem;
+    margin: 0 auto;
+  }
+
+  #filter-options {
+    padding: 0;
+  }
+
+  #filter-options li {
+    padding: 1.5rem 0;
+  }
+  .filter-cards {
+    margin: 3rem 0 8rem;
+  }
+
+  .filter-card {
+    width: 38rem;
+  }
+  .job-apply-form p {
+    padding: 0 5rem 7rem;
+  }
+
+  .job-apply-form .button-area button {
+    width: 35rem;
+  }
+  .job-apply-form .dbl-field:nth-child(3) {
+    gap: 0;
+  }
 }
 
 /*************************/
@@ -855,6 +942,17 @@
 
   .partnership-text h3 {
     line-height: 4rem;
+  }
+  /* Career Page  */
+  .career-benefits {
+    padding-top: 170%;
+  }
+  .benefit-card {
+    flex-direction: column;
+    height: auto;
+  }
+  .perks-list {
+    grid-template-columns: 1fr;
   }
 }
 

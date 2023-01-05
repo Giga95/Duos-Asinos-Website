@@ -29,3 +29,46 @@ function changeActivePosition(activeItem){
     }
     activeItem.classList.add('active-category');
 };
+
+
+// Career page
+
+const checkboxes = document.querySelectorAll('#filter-options input[type="checkbox"]');
+const resultsList = document.querySelector('#results-list');
+
+function handleCheckboxChange(event) {
+    const checkedFilterIds = Array.from(checkboxes)
+      .filter((checkbox) => checkbox.checked)
+      .map((checkbox) => checkbox.getAttribute('data-filter_id'));
+  
+    if (checkedFilterIds.length === 0) {
+      Array.from(resultsList.children).forEach((li) => {
+        li.style.opacity = 0;
+        li.style.display = 'block';
+  
+        setTimeout(() => {
+          li.style.opacity = 1;
+        }, 10);
+      });
+    } else {
+      Array.from(resultsList.children).forEach((li) => {
+        if (checkedFilterIds.some((id) => li.classList.contains(id))) {
+          li.style.opacity = 0;
+          li.style.display = 'block';
+  
+          setTimeout(() => {
+            li.style.opacity = 1;
+          }, 10);
+        } else {
+          li.style.display = 'none';
+        }
+      });
+    }
+  }
+  
+  
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener('change', handleCheckboxChange);
+});
+
+

@@ -66,8 +66,6 @@ counters.forEach((counter) => {
 });
 
 
-
-
 // FLIP CARDS //
 
 let cards = document.querySelectorAll('.flip-card');

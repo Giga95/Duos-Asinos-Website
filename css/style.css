@@ -2270,3 +2270,60 @@ form .button-area {
   width: 85%;
   margin: 0 auto;
 }
+
+/* JOB POSTS SECTION */
+
+.job-post-section {
+  background-color: #0a2136;
+  padding: 8rem 0;
+}
+
+.job-post-section .article-text p,
+.job-post-section .article-text ul {
+  color: #ffffff;
+  line-height: 2rem;
+}
+.job-post-section .article-text ul li {
+  margin: 0.5rem 8rem;
+  font-size: 1.6rem;
+}
+
+.job-post-section .article-text p:nth-child(1) {
+  padding-top: 1.5rem;
+}
+
+.job-post-section .article-text p:last-child {
+  padding: 3rem 5rem 0;
+}
+
+.job-apply-form-white {
+  background-color: #ffffff;
+  color: #0a2136;
+}
+
+.job-apply-form-white .button-area button {
+  margin: 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+  width: 100%;
+  padding: 1.75rem;
+  margin-top: -1rem;
+}
+
+.job-apply-form-white form .field.upload {
+  margin-top: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.job-apply-form-white form .field.upload:hover {
+  transform: scale(1.02);
+}
+
+.job-apply-form-white .button-area button:hover {
+  transform: scale(1.02);
+}
+
+p .mail {
+  color: #ffffff;
+  font-weight: 700;
+}

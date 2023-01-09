@@ -711,15 +711,10 @@
   .filter-card {
     width: 38rem;
   }
-  .job-apply-form p {
-    padding: 0 5rem 7rem;
-  }
 
-  .job-apply-form .button-area button {
-    width: 35rem;
-  }
-  .job-apply-form .dbl-field:nth-child(3) {
-    gap: 0;
+  /* Job POST page */
+  .career-page.post h2 {
+    font-size: 4.5rem;
   }
 }
 
@@ -953,6 +948,25 @@
   }
   .perks-list {
     grid-template-columns: 1fr;
+  }
+
+  .job-apply-form .button-area button,
+  .job-apply-form-white .button-area button {
+    width: 35rem;
+  }
+  .job-apply-form .dbl-field:nth-child(3),
+  .job-apply-form-white .dbl-field:nth-child(3) {
+    gap: 1rem;
+  }
+
+  /* JOB-POST PAGE */
+
+  .career-page.post h2 {
+    font-size: 3rem;
+  }
+
+  .job-apply-form-white {
+    padding: 5rem 0;
   }
 }
 

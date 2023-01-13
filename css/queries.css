@@ -7,8 +7,20 @@
     padding: 0 5rem;
   }
 
+  .container {
+    max-width: 130rem;
+  }
+
+  .col-2 {
+    gap: 6rem;
+    max-width: 130rem;
+  }
+
   .img-txt img {
     max-width: 80rem;
+  }
+  .map-address {
+    gap: 7rem;
   }
 }
 

@@ -1924,6 +1924,13 @@ form .button-area {
 
 .career-img {
   position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.career-img:hover {
+  transform: scale(1.05);
 }
 
 .career-img img {

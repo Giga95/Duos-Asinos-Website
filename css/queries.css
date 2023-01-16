@@ -729,6 +729,10 @@
     width: 38rem;
   }
 
+  .job-apply-form p {
+    padding: 0 10rem 7rem;
+  }
+
   /* Job POST page */
   .career-page.post h2 {
     font-size: 4.5rem;
@@ -965,6 +969,10 @@
   }
   .perks-list {
     grid-template-columns: 1fr;
+  }
+
+  .job-apply-form p {
+    padding: 0 5rem 7rem;
   }
 
   .job-apply-form .button-area button,

@@ -500,6 +500,11 @@
     width: 34rem;
   }
 
+  .career-header,
+  .header.sticky {
+    height: 9em;
+  }
+
   .career::after {
     width: 28rem;
     bottom: -0.8rem;

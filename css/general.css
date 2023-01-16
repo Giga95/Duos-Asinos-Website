@@ -15,6 +15,11 @@ body {
   line-height: 1;
 }
 
+hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 152rem;
   margin: 0 auto;
@@ -258,20 +263,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-#content1 {
-  scroll-margin-top: 14rem;
-}
-
-#content2 {
-  scroll-margin-top: 21.4rem;
-}
-
-#content3 {
-  scroll-margin-top: 27.8rem;
-}
-
-#content4 {
-  scroll-margin-top: 35rem;
 }

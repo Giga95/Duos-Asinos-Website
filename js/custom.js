@@ -120,6 +120,74 @@ function topFunction() {
 }
 
 
+// SCROLL NAVBAR 
+
+var lastScrollPosition = 0;
+
+window.addEventListener('scroll', function() {
+  var scrollPosition = this.scrollY;
+  var header = document.querySelector('.header');
+  if (scrollPosition > lastScrollPosition) {
+    // User is scrolling down
+    header.classList.add('hide');
+  } else {
+    // User is scrolling up
+    header.classList.remove('hide');
+  }
+  lastScrollPosition = scrollPosition;
+});
+
+var careerHeaders = document.querySelectorAll('.career-header');
+var headerHeight = 70;
+
+careerHeaders.forEach(function(careerHeader, index) {
+  careerHeader.classList.add('career-header-position');
+  careerHeader.style.top = (index * headerHeight) + 'px';
+});
+
+
+var header = document.querySelector('.header');
+var careerHeaders = document.querySelectorAll('.career-header');
+
+header.addEventListener('transitionend', function() {
+  if (header.classList.contains('hide')) {
+    // Navigation bar is hidden
+    careerHeaders.forEach(function(careerHeader) {
+      careerHeader.classList.add('below-navbar');
+    });
+  } else {
+    // Navigation bar is shown
+    careerHeaders.forEach(function(careerHeader) {
+      careerHeader.classList.remove('below-navbar');
+    });
+  }
+});
+
+// headers fix 
+
+var header = document.querySelector('.header');
+var careerHeaders = document.querySelectorAll('.career-header');
+var headerHeight = 70;
+
+window.addEventListener('scroll', function() {
+  var headersPosition = document.querySelector('.reveal').getBoundingClientRect();
+  if (headersPosition.top < 0 && !header.classList.contains('hide')) {
+    // Headers are in view and navigation bar is shown
+    careerHeaders.forEach(function(careerHeader, index) {
+      careerHeader.style.top = (index * headerHeight) + headerHeight + 'px';
+    });
+  } else {
+    // Headers are not in view or navigation bar is hidden
+    careerHeaders.forEach(function(careerHeader, index) {
+      careerHeader.style.top = (index * headerHeight) + 'px';
+    });
+  }
+});
+
+
+
+
+
 // FORMA //
 
 const form = document.querySelector("form"),

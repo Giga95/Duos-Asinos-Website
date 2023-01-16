@@ -18,10 +18,14 @@
 }
 
 .header.sticky {
-  background-color: rgba(0, 0, 0, 90%);
+  background-color: #0a2136;
   height: 7.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   z-index: 99;
+}
+
+.header.hide {
+  transform: translateY(-100%);
 }
 
 .logo {
@@ -500,6 +504,14 @@
   transition: all 0.3s ease;
 }
 
+.career-header.below-navbar {
+  top: 7rem;
+}
+
+.career-header-position {
+  top: 0px;
+}
+
 .career-header:hover {
   transform: scale(1.01);
 }
@@ -613,7 +625,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 73.3rem;
+  min-height: 70rem;
 }
 
 .wrapper {
@@ -857,8 +869,12 @@ form .button-area {
 }
 
 .contact-blue {
-  background-color: #0a2136;
+  background-color: #14426b;
   padding: 8rem 0;
+}
+
+.contact-section-page {
+  background-color: #ffffff;
 }
 
 .contact-blue .heading,
@@ -894,7 +910,7 @@ form .button-area {
 }
 
 .journey-section {
-  background-color: #0a2136;
+  background-color: #14426b;
 }
 
 .about.heading {
@@ -922,6 +938,10 @@ form .button-area {
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
+}
+
+.journey-img {
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .col-3:nth-child(1) {
@@ -963,6 +983,7 @@ form .button-area {
   font-size: 5rem;
   transition: all 0.3s;
   position: relative;
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .cta-box:hover {
@@ -1000,10 +1021,6 @@ form .button-area {
 
 .what-we-do .heading {
   padding: 5rem 0 0 0;
-}
-
-#what-we-do {
-  scroll-margin-top: 10rem;
 }
 
 .what-we-do .heading::after {
@@ -1907,7 +1924,7 @@ form .button-area {
 }
 
 .working-with-us-blue {
-  background-color: #0a2136;
+  background-color: #14426b;
   padding-bottom: 20rem;
 }
 
@@ -1937,6 +1954,7 @@ form .button-area {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .career-img p {
@@ -1945,12 +1963,15 @@ form .button-area {
   bottom: 0;
   color: #ffffff;
   font-size: 2.4rem;
-  background-color: rgba(10, 33, 54, 0.9);
+  background-color: rgba(20, 66, 107, 0.9);
   width: 100%;
   text-align: center;
   height: 7rem;
   line-height: 7rem;
-  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.benefits {
+  background-color: #ffffff;
 }
 
 .career-benefits {
@@ -2281,13 +2302,13 @@ form .button-area {
 /* JOB POSTS SECTION */
 
 .job-post-section {
-  background-color: #0a2136;
+  background-color: #ffffff;
   padding: 8rem 0;
 }
 
 .job-post-section .article-text p,
 .job-post-section .article-text ul {
-  color: #ffffff;
+  color: #0a2136;
   line-height: 2rem;
 }
 .job-post-section .article-text ul li {
@@ -2331,6 +2352,6 @@ form .button-area {
 }
 
 p .mail {
-  color: #ffffff;
+  color: #0a2136;
   font-weight: 700;
 }

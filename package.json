@@ -1,0 +1,24 @@
+{
+  "name": "duos-asinos---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giga95/Duos-Asinos-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giga95/Duos-Asinos-Website/issues"
+  },
+  "homepage": "https://github.com/Giga95/Duos-Asinos-Website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
